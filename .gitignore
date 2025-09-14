@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+# Builds
+dist/
+# Env
+.env
+# Data
+backend/data/db.json
