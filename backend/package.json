@@ -2,9 +2,9 @@
   "name": "orbix-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.ts",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "ts-node --esm src/server.ts",
+    "dev": "ts-node-esm src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
   },
